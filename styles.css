@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #4CAF50; /* Green theme */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background: #388E3C; /* Darker green */
+  margin: 0;
+  border-radius: 70%; /* Rounded corners */
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: rgb(245, 233, 233);
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #4CAF50; /* Green theme */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 40%; /* Oval shape */
+  border: 4px solid #4CAF50;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Navbar */
+.menu-icon {
+  display: none; /* Hidden by default */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Show hamburger icon on small screens */
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    display: none; /* Hide nav links by default on mobile */
+  }
+
+  nav ul.active {
+    display: flex; /* Show nav links when active */
+  }
+}
+
+/* About Me Section */
+.hidden {
+  display: none;
+}
+
+#show-more-btn {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#show-more-btn:hover {
+  background: #388E3C;
+}
+
+/* Comment Section */
+#comment-form input, #comment-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#comment-form button {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#comment-form button:hover {
+  background: #388E3C;
+}
+
+#comment-list {
+  margin-top: 1rem;
+}
+
+.comment-item {
+  background: #fff;
+  padding:0.5rm;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info a {
+  color: #4CAF50; /* Green color */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #15580155; /* Darker green on hover */
+}
+
+#show-comments-link {
+  text-align: right;
+  color: #0f0e0f;
+  text-decoration: none;
+  display: block;
+  margin-top: 1rem;
+}
+
+#show-comments-link:hover {
+  text-decoration: underline;
+  color: #0dac14a8;
+}
+
+/* Footer */
+footer {
+  padding: 50px;
+  background: #4CAF50;
+}
