@@ -19,7 +19,7 @@ agriculture to create sustainable solutions for my community.
 - **GitHub Pages**: For deploying the website.
 
 ## How to Use
-1. **View the Website**: Visit the live site hosted on GitHub Pages: 
+1. **View the Website**: Visit the live site hosted on GitHub Pages: https://github.com/Adossi-design/My-portfolio.git
 2. **Explore Sections**: Navigate through the different sections using the navbar.
 3. **Leave a Comment**: Use the comment section to share your feedback or suggestion
    
